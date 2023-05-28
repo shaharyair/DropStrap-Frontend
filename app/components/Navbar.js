@@ -49,7 +49,7 @@ function Navbar() {
           <div
             className={`absolute ${
               openMobileNavbar ? "left-1/4" : "-left-3/4"
-            } top-0 h-screen w-3/4 -translate-x-1/3 bg-navbarBlack px-7 pt-32 transition-left duration-500 lg:static lg:order-2 lg:mr-auto lg:h-auto lg:w-auto lg:translate-x-0 lg:bg-transparent lg:p-0`}
+            } top-28 h-screen w-3/4 -translate-x-1/3 bg-navbarBlack px-7 pt-10 transition-left duration-500 lg:static lg:order-2 lg:mr-auto lg:h-auto lg:w-auto lg:translate-x-0 lg:bg-transparent lg:p-0`}
           >
             <nav className=' mb-40 lg:m-0'>
               <ul className=' flex flex-col items-start justify-center gap-3 text-left text-xl text-dropLogo lg:flex-row lg:items-center lg:gap-5 lg:text-center'>
